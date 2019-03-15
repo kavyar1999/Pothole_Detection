@@ -7,7 +7,7 @@ class Sensor
   File file = new File("https://github.com/kavyar1999/Pothole_Detection/blob/master/gps.txt"); 
   BufferedReader rdr = new BufferedReader(new FileReader(file)); 
   String st; 	
-  PrintStream o = new PrintStream(new File("C:\\Users\\Jishnu\\Desktop\\pwd.txt"));
+  PrintStream o = new PrintStream(new File("https://github.com/kavyar1999/Pothole_Detection/blob/master/pwd.txt"));
   System.setOut(o); 
   while ((st = rdr.readLine()) != null)    				 //read from input file
   {  
