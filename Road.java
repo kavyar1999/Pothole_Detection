@@ -4,7 +4,7 @@ class Sensor
 {
  public  int readinput() throws IOException
  { 
-  File file = new File("C:\\Users\\Jishnu\\Desktop\\gps.txt"); 
+  File file = new File("https://github.com/kavyar1999/Pothole_Detection/blob/master/gps.txt"); 
   BufferedReader rdr = new BufferedReader(new FileReader(file)); 
   String st; 	
   PrintStream o = new PrintStream(new File("C:\\Users\\Jishnu\\Desktop\\pwd.txt"));
