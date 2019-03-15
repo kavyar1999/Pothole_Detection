@@ -14,7 +14,7 @@ class Sensor
 	String lat=st.substring(0,9);                       // value of latitude
 	String lon=st.substring(10,19);  					//value of longitude
 	String val=st.substring(20,21); 					 //value of pothole
-	test obj2 = new test();
+	To_pwd obj2 = new To_pwd();
 	obj2.upload_to_pwd(val,lat,lon);
   }
   return 1;
